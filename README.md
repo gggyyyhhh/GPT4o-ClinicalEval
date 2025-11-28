@@ -1,5 +1,5 @@
 # Evaluation of ChatGPT-4o on Clinical Diagnosis and Decision-Making in Multimodal Cases
-## Objective
+## 🎯 Objective
 This project evaluated the diagnostic performance, influencing factors, and assistive utility of ChatGPT-4o using a large, real-world dataset of complex multimodal clinical cases from:
 - Lancet (Picture Quiz Gallery) 
 - NEJM (Image Challenge) 
@@ -10,8 +10,8 @@ Case example:
   <img src="images/case example.png" width="600">
 </p>
 
-## Evaluation workflow
-### 1.Data processing and annotation
+## 👣 Evaluation workflow
+### 1. Data processing and annotation
 Cases were annotated by a team of three clinical experts and six graduate students. 
 Extracted metadata included:
 - Publication year
@@ -24,7 +24,7 @@ Extracted metadata included:
 - Specialty
 - Anatomical regions
 - Difficulty level (for NEJM cases only, categorized as easy, medium, or hard based on historical human respondent accuracy)
-### 2.Pilot study
+### 2. Pilot study
 <p align="center">
   <img src="images/pilot study.png" width="600">
 </p>
@@ -36,7 +36,7 @@ Extracted metadata included:
   - Web interface / API
   - API with temperature = 0 / 0.5 / 1
 - Metric: Accuracy
-### 3.Performance evaluation
+### 3. Performance evaluation
 **Input format:**
 > {Images}  
 > Question: {Question}  
