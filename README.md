@@ -38,9 +38,11 @@ Extracted metadata included:
 - Metric: Accuracy
 ### 3. Performance evaluation
 **Input format:**
-> {Images}  
-> Question: {Question}  
-> Options: {Option 1}, {Option 2}, {Option 3}, {Option 4}, ...
+```python
+{Images}  
+Question: {Question}  
+Options: {Option 1}, {Option 2}, {Option 3}, {Option 4}, ...
+```
 
 **Evaluation tasks include:**
 - Effectiveness evaluation
